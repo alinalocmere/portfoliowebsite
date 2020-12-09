@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: montserrat;
+   background-image: url(images/back.png);
+   background-repeat: no-repeat;
+   background-size: 1920px 800px;
+}
+
+:root {
+    --main: #ffffff;
+    --accent: #000000;
+  }
+nav{
+  
+}
+
+ul{
+    display: flex;
+    list-style: none;
+  
+  }
+
+li{
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+
+}
+
+section{
+color:var(--main);
+}
+
+.lightfont{
+    font-weight: 100;
+}
+
+.text{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.name{
+    font-size: 48px;
+}
+
+.description{
+   font-size: 27px; 
+   font-weight: 300;
+   text-align: justify;
+   margin-left: 500px;
+}
+
+.projectstext{
+    font-weight:100;
+    margin-top: 800px;
+    text-align: center;
+    color:var(--accent) ;
+}
